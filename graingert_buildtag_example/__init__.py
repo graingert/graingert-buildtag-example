@@ -1,3 +1,1 @@
-from importlib.metadata import version
-
-__version__ = version("graingert-buildtag-example")
+from ._version import version as __version__
