@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=69", "wheel", "build"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "graingert-buildtag-example"
+version = "0.1.0"
+description = "Demo package for a pure Python wheel with a build tag"
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [{ name = "Thomas Grainger", email = "tagrain@gmail.com" }]
+
+[tool.setuptools]
+packages = ["graingert_buildtag_example"]
